@@ -53,15 +53,15 @@ module.exports = {
   email: {
     smtp: {
       debug: true,
-      host: "smtp.office365.com", // hostname
+      host: "", // hostname
       secureConnection: false, // TLS requires secureConnection to be false
       port: 587, // port for secure SMTP
       tls: {
          cipher:'SSLv3'
       },
       auth: {
-          user: 'hello@uplio.com',
-          pass: 'Clipea13'
+          user: '',
+          pass: ''
       }
     },
     from: envVars.EMAIL_FROM,
