@@ -134,5 +134,3 @@ out
 .tmp.*
 src/tmp
 *.DS_Store
-src/uploads
-src/uploads/*
